@@ -63,7 +63,7 @@ public class RNGoogleOneTapSignInModule extends ReactContextBaseJavaModule {
     }
     
     googleIdOption = new GetGoogleIdOption.Builder()
-      .setFilterByAuthorizedAccounts(true)
+      .setFilterByAuthorizedAccounts(false)
       .setServerClientId(this.webClientId)
       .build();
     
